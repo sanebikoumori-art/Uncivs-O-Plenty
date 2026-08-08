@@ -199,7 +199,7 @@
 		"uniques":["Becomes [Ocean] when adjacent to [Coast]",
 		]
 	},
-	{
+/*	{
 		"name": "Abyss",
 		"type": "Water",
 		"gold": 2,
@@ -231,15 +231,26 @@
 			"Occurs at temperature between [0.8] and [1] and humidity between [-0.5] and [1]",
 			"[+2] to Fertility for Map Generation",
 		]
-	},
+	},*/
 	{
 		"name": "Warm Ocean",
 		"type": "Water",
 		"gold": 2,
 		"movementCost": 1,
 		"RGB": [6, 38, 85],
+		"uniques":["Occurs in groups of [121] to [204] tiles",
+			"Occurs at temperature between [0.3] and [0.8] and humidity between [-1] and [1]",
+			"[+2] to Fertility for Map Generation",
+		]
+	},
+	{
+		"name": "Hot Ocean",
+		"type": "Water",
+		"gold": 2,
+		"movementCost": 1,
+		"RGB": [6, 38, 85],
 		"uniques":["Occurs in groups of [21] to [104] tiles",
-			"Occurs at temperature between [0.8] and [1] and humidity between [-0.5] and [0.5]",
+			"Occurs at temperature between [0.8] and [1] and humidity between [-1] and [1]",
 			"[+2] to Fertility for Map Generation",
 		]
 	},
@@ -249,8 +260,19 @@
 		"gold": 2,
 		"movementCost": 1,
 		"RGB": [6, 38, 85],
+		"uniques":["Occurs in groups of [121] to [204] tiles",
+			"Occurs at temperature between [-0.8] and [-0.3] and humidity between [-1] and [1]",
+			"[+2] to Fertility for Map Generation",
+		]
+	},
+	{
+		"name": "Arctic Ocean",
+		"type": "Water",
+		"gold": 2,
+		"movementCost": 1,
+		"RGB": [6, 38, 85],
 		"uniques":["Occurs in groups of [21] to [104] tiles",
-			"Occurs at temperature between [-1] and [-0.8] and humidity between [-0.5] and [0.5]",
+			"Occurs at temperature between [-1] and [-0.8] and humidity between [-1] and [1]",
 			"[+2] to Fertility for Map Generation",
 		]
 	},
