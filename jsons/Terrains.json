@@ -197,10 +197,6 @@
 		"movementCost": 1,
 		"RGB": [43, 87, 151],
 		"uniques":["Becomes [Ocean] when adjacent to [Coast]",
-			"Becomes [Abyss] when adjacent to [Ocean]",
-			"Occurs in groups of [7] to [14] tiles",
-			"Occurs at temperature between [0.5] and [1] and humidity between [0.6] and [1]",
-			"[+2] to Fertility for Map Generation",
 		]
 	},
 	{
@@ -208,7 +204,11 @@
 		"type": "Water",
 		"gold": 2,
 		"movementCost": 1,
-		"RGB": [6, 38, 85]
+		"RGB": [6, 38, 85],
+		"uniques":["Occurs in groups of [7] to [14] tiles",
+			"Occurs at temperature between [0.5] and [1] and humidity between [0.6] and [1]",
+			"[+2] to Fertility for Map Generation",
+		]
 	},
 	//rework
 	{
