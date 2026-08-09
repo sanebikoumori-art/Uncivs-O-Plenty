@@ -12,6 +12,9 @@
         "Aquarium+Jungle": ["Aquarium","Coraljungle"],
         "Camelot+Forest": ["Camelot","cforest"],
         "Eternaland+Forest": ["Eternaland","Eternaforest"],
+        "Eternaland+Mangrove": ["Coast","Mangrove"],
+        "Eternaland+Mangrove+Fish": ["Coast","Fish","Mangrove"],
+        "Eternaland+Mangrove+Whale": ["Coast","Whale","Mangrove"],
 
         //farms
         "Flowerland+Farm": ["Flowerland","Floweringfarm"],
