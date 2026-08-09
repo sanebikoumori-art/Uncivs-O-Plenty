@@ -284,7 +284,8 @@
 			"Becomes [Warm Ocean] when adjacent to [Warm Ocean]",
 			"Becomes [Cold Ocean] when adjacent to [Cold Ocean]",
 			"Becomes [Arctic Ocean] when adjacent to [Arctic Ocean]",
-			"Will not be displayed in Civilopedia"
+			"Will not be displayed in Civilopedia",
+			"Excluded from map editor"
 		]
 	},
 	//special
