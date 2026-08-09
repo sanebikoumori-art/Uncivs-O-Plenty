@@ -199,70 +199,39 @@
 		"uniques":["Becomes [Ocean] when adjacent to [Coast]",
 		]
 	},
-/*	{
-		"name": "Abyss",
-		"type": "Water",
-		"gold": 2,
-		"movementCost": 1,
-		"RGB": [6, 38, 85],
-		"uniques":["Occurs in groups of [21] to [56] tiles",
-			"Occurs at temperature between [-1] and [1] and humidity between [-0.9] and [-0.5]",
-			"[+2] to Fertility for Map Generation",
-		]
-	},
-	{
-		"name": "Hadal Ocean",
-		"type": "Water",
-		"gold": 1,
-		"movementCost": 1,
-		"RGB": [6, 38, 85],
-		"uniques":["Occurs in groups of [6] to [14] tiles",
-			"Occurs at temperature between [-1] and [1] and humidity between [-1] and [-0.9]",
-			"[+3] to Fertility for Map Generation",
-		]
-	},
-	{
-		"name": "Tide Pool",
-		"type": "Water",
-		"gold": 2,
-		"movementCost": 1,
-		"RGB": [6, 38, 85],
-		"uniques":["Occurs in groups of [21] to [56] tiles",
-			"Occurs at temperature between [0.8] and [1] and humidity between [-0.5] and [1]",
-			"[+2] to Fertility for Map Generation",
-		]
-	},*/
 	{
 		"name": "Warm Ocean",
 		"type": "Water",
-		"gold": 2,
+		"food": 1,
+		"gold": 1,
 		"movementCost": 1,
 		"RGB": [6, 38, 85],
-		"uniques":["Occurs in groups of [121] to [204] tiles",
+		"uniques":[//"Occurs in groups of [121] to [204] tiles",
 			"Occurs at temperature between [0.3] and [0.8] and humidity between [-1] and [1]",
-			"[+2] to Fertility for Map Generation",
+			"[+12] to Fertility for Map Generation",
 		]
 	},
 	{
 		"name": "Hot Ocean",
 		"type": "Water",
-		"gold": 2,
+		"food": 2,
 		"movementCost": 1,
 		"RGB": [6, 38, 85],
-		"uniques":["Occurs in groups of [21] to [104] tiles",
+		"uniques":[//"Occurs in groups of [21] to [104] tiles",
 			"Occurs at temperature between [0.8] and [1] and humidity between [-1] and [1]",
-			"[+2] to Fertility for Map Generation",
+			"[+12] to Fertility for Map Generation",
 		]
 	},
 	{
 		"name": "Cold Ocean",
 		"type": "Water",
-		"gold": 2,
+		"food": 1,
+		"gold": 1,
 		"movementCost": 1,
 		"RGB": [6, 38, 85],
-		"uniques":["Occurs in groups of [121] to [204] tiles",
+		"uniques":[//"Occurs in groups of [121] to [204] tiles",
 			"Occurs at temperature between [-0.8] and [-0.3] and humidity between [-1] and [1]",
-			"[+2] to Fertility for Map Generation",
+			"[+12] to Fertility for Map Generation",
 		]
 	},
 	{
@@ -271,8 +240,20 @@
 		"gold": 2,
 		"movementCost": 1,
 		"RGB": [6, 38, 85],
-		"uniques":["Occurs in groups of [21] to [104] tiles",
+		"uniques":[//"Occurs in groups of [21] to [104] tiles",
 			"Occurs at temperature between [-1] and [-0.8] and humidity between [-1] and [1]",
+			"[+12] to Fertility for Map Generation",
+		]
+	},
+	{
+		"name": "Aquos",
+		"type": "Water",
+		"food": 2,
+		"gold": 1,
+		"movementCost": 1,
+		"RGB": [6, 38, 85],
+		"uniques":["Occurs in groups of [5] to [10] tiles",
+			"Occurs at temperature between [0.45] and [0.5] and humidity between [-1] and [1]",
 			"[+2] to Fertility for Map Generation",
 		]
 	},
