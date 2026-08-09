@@ -185,3 +185,31 @@ TileSets/FantasyHex/Tiles/Lumber mill
   orig: 32, 36
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Arctic Ocean
+  rotate: false
+  xy: 288, 8
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Cold Ocean
+  rotate: false
+  xy: 320, 8
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Warm Ocean
+  rotate: false
+  xy: 352, 8
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Hot Ocean
+  rotate: false
+  xy: 384, 8
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
