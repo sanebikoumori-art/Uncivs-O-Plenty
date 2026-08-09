@@ -12,10 +12,12 @@
         "Aquarium+Jungle": ["Aquarium","Coraljungle"],
         "Camelot+Forest": ["Camelot","cforest"],
         "Eternaland+Forest": ["Eternaland","Eternaforest"],
-        "Eternaland+Mangrove": ["Coast","Mangrove"],
-        "Eternaland+Mangrove+Fish": ["Coast","Fish","Mangrove"],
-        "Eternaland+Mangrove+Whale": ["Coast","Whale","Mangrove"],
-
+        "Coast+Mangrove": ["Coast","Mangrove"],
+        "Coast+Mangrove+Fish": ["Coast","Fish","Mangrove"],
+        "Coast+Mangrove+Whale": ["Coast","Whale","Mangrove"],
+        "Coast+Mangrove+Oil": ["Coast","Oil","Mangrove"],
+        "Coast+Reef+Mangrove": ["Coast","Reef","Mangrove"],
+        
         //farms
         "Flowerland+Farm": ["Flowerland","Floweringfarm"],
         "Autumnland+Farm": ["Autumnland","Autumnfarm"],
