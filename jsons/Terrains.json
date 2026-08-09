@@ -190,16 +190,6 @@
 	},
 	//Ocean
 	{
-		"name": "Ocean",
-		"type": "Water",
-		"food": 1,
-		"gold": 1,
-		"movementCost": 1,
-		"RGB": [43, 87, 151],
-		"uniques":["Becomes [Ocean] when adjacent to [Coast]",
-		]
-	},
-	{
 		"name": "Warm Ocean",
 		"type": "Water",
 		"food": 1,
@@ -275,6 +265,20 @@
             "Considered [Desirable] when determining start locations <in [Tundra] Regions>",
             "Becomes [Autumnland] when adjacent to [River]",
             "Every [16] tiles with this terrain will receive a major deposit of a strategic resource."]
+	},
+	{
+		"name": "Ocean",
+		"type": "Water",
+		"food": 1,
+		"gold": 1,
+		"movementCost": 1,
+		"RGB": [43, 87, 151],
+		"uniques":[
+			"Becomes [Hot Ocean] when adjacent to [Hot Ocean]",
+			"Becomes [Warm Ocean] when adjacent to [Warm Ocean]",
+			"Becomes [Cold Ocean] when adjacent to [Cold Ocean]",
+			"Becomes [Arctic Ocean] when adjacent to [Arctic Ocean]",
+		]
 	},
 	//special
 	{
