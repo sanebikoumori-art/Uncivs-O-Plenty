@@ -199,6 +199,7 @@
 		"uniques":[//"Occurs in groups of [121] to [204] tiles",
 			"Occurs at temperature between [0.3] and [0.8] and humidity between [-1] and [1]",
 			"[+12] to Fertility for Map Generation",
+			"Ocean",
 		]
 	},
 	{
@@ -210,6 +211,7 @@
 		"uniques":[//"Occurs in groups of [21] to [104] tiles",
 			"Occurs at temperature between [0.8] and [1] and humidity between [-1] and [1]",
 			"[+12] to Fertility for Map Generation",
+			"Ocean",
 		]
 	},
 	{
@@ -222,6 +224,7 @@
 		"uniques":[//"Occurs in groups of [121] to [204] tiles",
 			"Occurs at temperature between [-0.8] and [-0.3] and humidity between [-1] and [1]",
 			"[+12] to Fertility for Map Generation",
+			"Ocean",
 		]
 	},
 	{
@@ -233,6 +236,7 @@
 		"uniques":[//"Occurs in groups of [21] to [104] tiles",
 			"Occurs at temperature between [-1] and [-0.8] and humidity between [-1] and [1]",
 			"[+12] to Fertility for Map Generation",
+			"Ocean",
 		]
 	},
 	{
@@ -245,6 +249,7 @@
 		"uniques":["Occurs in groups of [5] to [10] tiles",
 			"Occurs at temperature between [0.45] and [0.5] and humidity between [-1] and [1]",
 			"[+2] to Fertility for Map Generation",
+			"Ocean",
 		]
 	},
 	//rework
