@@ -220,3 +220,10 @@ TileSets/FantasyHex/Tiles/Aquos
   orig: 32, 28
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Mangrove
+  rotate: false
+  xy: 448, 36
+  size: 32, 36
+  orig: 32, 36
+  offset: 0, 0
+  index: -1
