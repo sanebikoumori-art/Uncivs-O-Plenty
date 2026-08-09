@@ -185,7 +185,8 @@
 			"A Region can not contain more [Forest] tiles than [Jungle] tiles",
 			"Considered [Food] when determining start locations <in all except [Grassland] Regions>",
 			"Considered [Desirable] when determining start locations <in all except [Grassland] Regions>",
-			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
+			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource.",
+			"Never receives any resources <in [Coast] tiles>",
 		]
 	},
 	//Ocean
@@ -283,6 +284,7 @@
 			"Becomes [Warm Ocean] when adjacent to [Warm Ocean]",
 			"Becomes [Cold Ocean] when adjacent to [Cold Ocean]",
 			"Becomes [Arctic Ocean] when adjacent to [Arctic Ocean]",
+			"Will not be displayed in Civilopedia"
 		]
 	},
 	//special
