@@ -288,6 +288,54 @@
 			"Excluded from map editor"
 		]
 	},
+	//Wonders
+	{
+		"name": "Gigatomato",
+		"type": "NaturalWonder",
+		"food": 5,
+		"occursOn": ["Autumnland"],
+		"uniques": ["Must be adjacent to [6] [Autumnland] tiles",
+		"Neighboring tiles will convert to [Tomato Field]"
+		],
+		"turnsInto": "Autumnland",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10
+	},
+	{
+		"name": "Tomato Field",
+		"type": "Land",
+		"food": 3,
+		"occursOn": ["Autumnland"],
+		"uniques": [
+			"Autumnland",
+			"Never receives any resources",
+			"Doesn't generate naturally",
+		],
+		"weight": 10
+	},
+	{
+		"name": "Mushroomland",
+		"type": "NaturalWonder",
+		"food": 3,
+		"culture":3,
+		"occursOn": ["Ocean"],
+		"turnsInto": "Grassland",
+		"uniques": ["Must be adjacent to [1] to [6] [Coast] tiles",
+		"Neighboring tiles will convert to [Coast]"],
+		"weight": 10
+	},
+	{
+		"name": "Springfall",
+		"type": "NaturalWonder",
+		"happiness": 4,
+		"faith":1,
+		"occursOn": ["Flowerland"],
+		"turnsInto": "Mountain",
+		"uniques": ["Must be adjacent to [6] [Flowerland] tiles",
+		"Neighboring tiles will convert to [Forest]"],
+		"weight": 10
+	},
 	//special
 	{
 		"name": "Void",
