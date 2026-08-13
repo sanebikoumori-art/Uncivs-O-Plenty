@@ -177,6 +177,8 @@
 		"occursOn": ["Plains","Grassland","Rockland","Ancientland","Aquarium","Coast"],
 		"uniques": [
 			"Rough terrain", "Vegetation",
+			"Rare feature <in [Coast] tiles>",
+			"Turn this tile into a [Coast] tile <in [Coast] tiles> <in tiles not adjacent to [{Grassland} {Jungle}] tiles>",
 			"Blocks line-of-sight from tiles at same elevation",
 			"[25]% Chance to be destroyed by nukes",
 			"[-1] to Fertility for Map Generation",
@@ -186,8 +188,6 @@
 			"Considered [Food] when determining start locations <in all except [Grassland] Regions>",
 			"Considered [Desirable] when determining start locations <in all except [Grassland] Regions>",
 			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource.",
-			"Must be adjacent to [1] [non-[Tundra]] tiles",
-			"Must be adjacent to [1] [non-[Snow]] tiles",
 			"Never receives any resources <in [Coast] tiles>",
 		]
 	},
@@ -297,8 +297,7 @@
 		"food": 5,
 		"occursOn": ["Autumnland"],
 		"uniques": ["Must be adjacent to [2] to [6] [Autumnland] tiles",
-		"Neighboring tiles will convert to [Tomato Field]",
-		"Must be adjacent to [6] [non-[Coast]] tiles",
+		"Neighboring tiles will convert to [Tomato Field] <in [Land] tiles>",
 		],
 		"turnsInto": "Autumnland",
 		"impassable": true,
@@ -336,8 +335,7 @@
 		"occursOn": ["Flowerland"],
 		"turnsInto": "Mountain",
 		"uniques": ["Must be adjacent to [1] to [6] [Flowerland] tiles",
-		"Must be adjacent to [6] [non-[Coast]] tiles",
-		"Neighboring tiles will convert to [Flowerland]",
+		"Neighboring tiles will convert to [Flowerland] <in [Land] tiles>",
 		"Neighboring tiles will convert to [Forest]",
 		"Fresh water"],
 		"weight": 10
