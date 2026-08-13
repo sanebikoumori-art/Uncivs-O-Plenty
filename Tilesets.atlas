@@ -227,3 +227,31 @@ TileSets/FantasyHex/Tiles/Mangrove
   orig: 32, 36
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Tomato Field
+  rotate: false
+  xy: 480, 0
+  size: 32, 36
+  orig: 32, 36
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Gigatomato
+  rotate: false
+  xy: 480, 36
+  size: 32, 36
+  orig: 32, 36
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Mushroomland
+  rotate: false
+  xy: 512, 0
+  size: 32, 36
+  orig: 32, 36
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Springfall
+  rotate: false
+  xy: 544, 0
+  size: 32, 36
+  orig: 32, 36
+  offset: 0, 0
+  index: -1
