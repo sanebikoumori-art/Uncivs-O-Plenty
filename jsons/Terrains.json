@@ -294,7 +294,7 @@
 		"type": "NaturalWonder",
 		"food": 5,
 		"occursOn": ["Autumnland"],
-		"uniques": ["Must be adjacent to [6] [Autumnland] tiles",
+		"uniques": ["Must be adjacent to [2] to [6] [Autumnland] tiles",
 		"Neighboring tiles will convert to [Tomato Field]"
 		],
 		"turnsInto": "Autumnland",
@@ -332,7 +332,8 @@
 		"faith":1,
 		"occursOn": ["Flowerland"],
 		"turnsInto": "Mountain",
-		"uniques": ["Must be adjacent to [6] [Flowerland] tiles",
+		"uniques": ["Must be adjacent to [1] to [6] [Flowerland] tiles",
+		"Neighboring tiles will convert to [Flowerland]",
 		"Neighboring tiles will convert to [Forest]",
 		"Fresh water"],
 		"weight": 10
