@@ -178,7 +178,7 @@
 		"uniques": [
 			"Rough terrain", "Vegetation",
 			"Rare feature <in [Coast] tiles>",
-			"Becomes [Coast] when adjacent to [Ocean] <in tiles not adjacent to [{Grassland} {Jungle}] tiles>",
+			"Becomes [Coast] when adjacent to [Coast] <in tiles not adjacent to [{Grassland} {Jungle}] tiles>",//OR 1=1
 			"Blocks line-of-sight from tiles at same elevation",
 			"[25]% Chance to be destroyed by nukes",
 			"[-1] to Fertility for Map Generation",
