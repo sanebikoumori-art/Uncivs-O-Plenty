@@ -333,7 +333,8 @@
 		"occursOn": ["Flowerland"],
 		"turnsInto": "Mountain",
 		"uniques": ["Must be adjacent to [6] [Flowerland] tiles",
-		"Neighboring tiles will convert to [Forest]"],
+		"Neighboring tiles will convert to [Forest]",
+		"Fresh water"],
 		"weight": 10
 	},
 	//special
