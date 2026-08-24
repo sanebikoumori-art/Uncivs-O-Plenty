@@ -255,16 +255,3 @@ TileSets/FantasyHex/Tiles/Springfall
   orig: 32, 36
   offset: 0, 0
   index: -1
-
-test.png
-size: 100, 100
-format: RGBA8888
-filter: MipMapLinearLinear, Linear
-repeat: none
-UnitIcons/Great War Infantry
-  rotate: false
-  xy: 0, 0
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
